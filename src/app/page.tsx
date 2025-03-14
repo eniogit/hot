@@ -81,14 +81,14 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="grid grid-cols-1 grid-rows-1 h-[100vh] items-center">
+      <div className="grid grid-cols-1 grid-rows-1 h-[100vh] items-center justify-items-center">
         <Image
           src={hero}
           alt="hero"
           className="brightness-40 object-cover row-start-1 row-end-1 col-start-1 col-end-1 h-full z-0"
           placeholder="blur"
         />
-        <div className="text-white row-start-1 col-start-1 z-10 m-8">
+        <div className="text-white row-start-1 col-start-1 z-10 p-4 max-w-7xl w-full">
           <h1 className="text-5xl font-bold mb-4">Find Your Perfect Rental</h1>
           <p className="text-xl mb-8 max-w-2xl">
             Discover luxury apartments and homes for rent in prime locations.

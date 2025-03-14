@@ -1,6 +1,6 @@
 import { Building2 } from "lucide-react";
-import "./globals.css";
 import Link from "next/link";
+import "./globals.css";
 
 export default function RootLayout({
   children,
@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="">
-        <nav className="bg-white shadow-lg">
+        <nav className="shadow-lg bg-sidebar">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
@@ -23,9 +23,15 @@ export default function RootLayout({
                 <div className="hidden md:flex items-center space-x-8 ml-10">
                   <Link
                     href="/"
-                    className="text-gray-600 hover:text-accent px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-600 hover:text-accent px-3 py-2 rounded-md text-md font-medium"
                   >
                     Home
+                  </Link>
+                  <Link
+                    href="/explore"
+                    className="text-gray-600 hover:text-accent px-3 py-2 rounded-md text-md font-medium"
+                  >
+                    Explore
                   </Link>
                 </div>
               </div>

@@ -66,6 +66,48 @@ export const SAMPLE_PROPERTIES: Property[] = [
     type: "house",
     status: "available",
   },
+  {
+    id: "4",
+    title: "Charming Cottage",
+    description: "Cozy cottage in a quiet neighborhood",
+    price: 3500,
+    location: "Asheville, NC",
+    bedrooms: 2,
+    bathrooms: 1,
+    squareFeet: 1200,
+    imageUrl:
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3",
+    type: "house",
+    status: "sold",
+  },
+  {
+    id: "5",
+    title: "Luxury Condo with Amenities",
+    description: "Spacious condo with gym and pool access",
+    price: 4000,
+    location: "Chicago, IL",
+    bedrooms: 2,
+    bathrooms: 2,
+    squareFeet: 1400,
+    imageUrl:
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3",
+    type: "condo",
+    status: "available",
+  },
+  {
+    id: "6",
+    title: "Historic Brownstone",
+    description: "Beautifully restored brownstone in a historic district",
+    price: 6000,
+    location: "Boston, MA",
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFeet: 2000,
+    imageUrl:
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3",
+    type: "house",
+    status: "available",
+  },
 ];
 
 export const SAMPLE_REQUESTS: PropertyRequest[] = [
