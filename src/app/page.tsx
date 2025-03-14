@@ -81,7 +81,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="grid grid-cols-1 grid-rows-1 h-[100vh] overflow-hidden items-center">
+      <div className="grid grid-cols-1 grid-rows-1 h-[100vh] items-center">
         <Image
           src={hero}
           alt="hero"
